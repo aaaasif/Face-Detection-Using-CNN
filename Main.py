@@ -33,6 +33,7 @@ for path in modePathList:
     imgModeList.append(cv2.imread(os.path.join(folderModePath, path)))
 # print(len(imgModeList))
 
+
 # Load the encoding file
 print("Loading Encode File ...")
 file = open('EncodeFile.p', 'rb')
